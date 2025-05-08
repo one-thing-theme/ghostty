@@ -23,19 +23,14 @@ mkdir themes
 cd themes
 ```
 
-3. Download the one thing themes for oh my posh.
+3. Download the one thing themes into ghostty theme folder.
 
 ```
-curl -O https://raw.githubusercontent.com/one-thing-theme/oh-my-posh/refs/heads/main/theme/one-thing.omp.json one-thing.omp.json
+curl -O https://raw.githubusercontent.com/one-thing-theme/ghostty/refs/heads/main/themes/one-thing.conf one-thing.conf
 ```
 
-4. Update the oh my posh config to use the theme. Inside the .zshrc file update the settings using.
+4. Next, update the ghostty config theme and set the theme to the conf. file.
 
 ```
-# ZSH CONFIGURATION
-# Oh My Posh configuration
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/one-thing.omp.json)"
-fi
-
+theme = one-thing.conf
 ```
