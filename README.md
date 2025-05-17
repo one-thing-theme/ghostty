@@ -4,7 +4,9 @@ _Modern, minimal & simple visual studio code theme that combine black, white and
 
 _Screenshots:_
 
-![Banner](https://cdn.hashnode.com/res/hashnode/image/upload/v1746717532966/94c91d15-2b3d-4f1e-b854-a9b0f09f181a.png)
+![Light](https://cdn.hashnode.com/res/hashnode/image/upload/v1746717532966/94c91d15-2b3d-4f1e-b854-a9b0f09f181a.png)
+
+![Dark](https://cdn.hashnode.com/res/hashnode/image/upload/v1747461111794/bd773e62-de62-4f7b-9e3e-c8fdcc07bc28.png)
 
 ## Recomended settings
 
@@ -26,11 +28,13 @@ cd themes
 3. Download the one thing themes into ghostty theme folder.
 
 ```
-curl -O https://raw.githubusercontent.com/one-thing-theme/ghostty/refs/heads/main/themes/one-thing.conf one-thing.conf
+curl -o one-thing-light.conf https://raw.githubusercontent.com/one-thing-theme/ghostty/refs/heads/main/themes/one-thing-light.conf
+
+curl -o one-thing-dark.conf https://raw.githubusercontent.com/one-thing-theme/ghostty/refs/heads/main/themes/one-thing-dark.conf
 ```
 
 4. Next, update the ghostty config theme and set the theme to the conf. file.
 
 ```
-theme = one-thing.conf
+theme = light:one-thing-light.conf,dark:one-thing-dark.conf
 ```
