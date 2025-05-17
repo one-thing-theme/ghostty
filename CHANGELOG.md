@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## [v1.1.0](https://github.com/one-thing-theme/ghostty/releases/tag/v1.1.0) - 2025-05-17 05:53:51
+
+**Full Changelog**: https://github.com/one-thing-theme/ghostty/compare/v1.0.0...v1.1.0
+
+### Feature
+
+- general:
+  - add dark version file support ([cffa393](https://github.com/one-thing-theme/ghostty/commit/cffa3939fdaf2a3229d19d770497d5c834bc1ab2))
+
+### Documentation
+
+- general:
+  - update the installation instruction ([84c1cc9](https://github.com/one-thing-theme/ghostty/commit/84c1cc94ef4287344f4b920618cb090df4fa2b86))
+
+### Refactor
+
+- general:
+  - update the file name and adjust color ([748ae7b](https://github.com/one-thing-theme/ghostty/commit/748ae7be1e59d28607366fcf916759b6926fa6d0))
+
 ## [v1.0.0](https://github.com/one-thing-theme/ghostty/releases/tag/v1.0.0) - 2025-05-08 15:25:57
 
 **Full Changelog**: https://github.com/one-thing-theme/ghostty/commits/v1.0.0
